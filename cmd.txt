@@ -1,0 +1,18 @@
+*1）新建Text文件夹作为仓库根目录（文件夹名字随意命名）
+
+*2）将需要上传的代码文件加入到Text根目录
+
+*3）在根目录下建立仓库
+使用命令行或Git Bash，输入下面命令：先进入到Text根目录下，再输入git init（初始化一个仓库）
+
+*4）将所有文件添加到仓库
+使用命令行或Git Bash，输入下面命令：git add .
+
+*5）提交
+使用命令行或Git Bash，输入下面命令：git commit -m “CommitInfo”
+
+*6）添加源到GitHub
+git remote add origin git@github.com:YourName/YourRepositroy.git
+
+*7）上传源到GitHub
+git push -u origin master
